@@ -1,0 +1,105 @@
+/***************************Tag Selectors*****************************/
+body {
+  font-family: 'Roboto' sans-serif;
+
+}
+
+h1 {
+  font-family: 'Noto' sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h5 {
+  font-family: 'Noto' sans-serif;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+
+
+/***************************Class Selectors*****************************/
+
+.navbar {
+  padding: 1rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.index-csl-body {
+background-color: #E6E6E6;
+padding: 1rem;
+}
+
+
+.index-carousel {
+  margin: 10rem 1rem 3rem;
+}
+
+.index-products-header {
+  text-align: center;
+  background-color: #e6e6e6;
+  margin: 0;
+}
+
+.index-product-cards-cont {
+  background-color: #E6E6E6;
+  padding: 3rem 0;
+}
+
+.index-product-cards {
+  margin: 0 8rem;
+  }
+
+.index-cards {
+  max-width: 22rem;
+  height: 38rem;
+}
+
+.index-card-text {
+  text-align: justify;
+}
+
+.index-card-title {
+  text-align: center;
+}
+
+.index-card-btn {
+  text-align: center;
+}
+
+.footer-one {
+  background-color: #8A8A99;
+}
+
+.footer-row {
+  margin: 0 8rem;
+  line-height: 1.5;
+  padding: 3rem 0;
+  font-size: 0.75rem;
+}
+
+.footer-logo{
+  padding-top: 1.5rem;
+}
+
+.fas {
+  color: #0200c6;
+}
+
+.fab {
+  color: #0200c6;
+}
+
+.footer {
+  font-size: 0.65rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+
+
+/***************************ID Selectors*****************************/
