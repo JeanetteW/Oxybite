@@ -8,6 +8,10 @@ h1 {
   font-family: 'Noto' sans-serif;
   font-weight: 700;
   line-height: 1.5;
+  font-size: 4rem;
+}
+
+h2{
   font-size: 3rem;
 }
 
@@ -16,6 +20,7 @@ h5 {
   line-height: 1.5;
   font-size: 2rem;
 }
+
 
 
 
@@ -39,8 +44,10 @@ padding: 1rem;
   margin: 10rem 1rem 3rem;
 }
 
+
 .card-img-top {
-  padding-top: 1rem;
+  padding-top: 0 0 1rem;
+  border-radius: 10px 10px 0 0;
 }
 
 .index-products-header {
@@ -56,11 +63,13 @@ padding: 1rem;
 
 .index-product-cards {
   margin: 0 8rem;
+  border-radius: 20px;
   }
 
 .index-cards {
   max-width: 22rem;
   height: 38rem;
+  border-radius: 20px;
 }
 
 .index-card-text {
@@ -73,6 +82,11 @@ padding: 1rem;
 
 .index-card-btn {
   text-align: center;
+}
+
+.index-contact {
+  text-align: center;
+  margin: 1rem auto 2rem;
 }
 
 .footer-one {
@@ -107,3 +121,20 @@ padding: 1rem;
 
 
 /***************************ID Selectors*****************************/
+#index-contact {
+  text-align: center;
+  margin: 1rem;
+}
+
+
+
+/***************************Media Queries*****************************/
+
+@media only screen and (max-width: 768px) {
+  [class="index-cards"] {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0;
+    height: auto;
+  }
+}
