@@ -28,6 +28,7 @@ h5 {
 
 .navbar {
   padding: 1rem;
+  background-color: #e6e6e6;
 }
 
 .nav-item {
@@ -35,7 +36,7 @@ h5 {
 }
 
 .index-csl-body {
-background-color: #E6E6E6;
+background-color: #fff;
 padding: 1rem;
 }
 
@@ -44,22 +45,16 @@ padding: 1rem;
   margin: 10rem 1rem 3rem;
 }
 
-
-.card-img-top {
-  padding-top: 0 0 1rem;
-  border-radius: 10px 10px 0 0;
-}
-
 .index-products-header {
   text-align: center;
   background-color: #e6e6e6;
   margin: 0;
+  padding-top: 3rem;
 }
 
 .index-product-cards-cont {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   padding: 3rem 0;
-  display: flex;
 }
 
 .index-product-cards {
@@ -67,10 +62,16 @@ padding: 1rem;
   border-radius: 20px;
   }
 
+.card-img-top {
+    padding-top: 0 0 1rem;
+    border-radius: 10px 10px 0 0;
+  }
+
 .index-cards {
   max-width: 22rem;
-  height: 38rem;
+  /* height: 38rem; */
   border-radius: 20px;
+  border: none;
 }
 
 .index-card-text {
@@ -83,6 +84,11 @@ padding: 1rem;
 
 .index-card-btn {
   text-align: center;
+}
+
+.index-contact-container{
+background-color: #fff;
+margin: 4rem auto;
 }
 
 .index-contact {
@@ -131,12 +137,13 @@ padding: 1rem;
 
 /***************************Media Queries*****************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   [class="index-product-cards"] {
+    display: block;
     width: 50%;
     margin: auto;
     padding: 0;
     height: auto;
-   
+    justify-content: center;
   }
 }
