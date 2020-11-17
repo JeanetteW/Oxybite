@@ -24,6 +24,7 @@ h5 {
 
 
 
+
 /***************************Class Selectors*****************************/
 
 .navbar {
@@ -72,6 +73,7 @@ background-color: #e6e6e6;
   margin: 1rem;
   /* max-width: 22rem; */
   /* height: 38rem; */
+  min-height: 38rem;
   border-radius: 20px;
   border: none;
 }
@@ -139,12 +141,16 @@ margin: 4rem auto;
 
 /***************************Media Queries*****************************/
 
-/* @media only screen and (max-width: 768px) {
-  [class="index-product-cards"] {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    padding: 0;
-    height: auto;
+@media only screen and (max-width: 400px) {
+  h5 {
+    font-size: 1rem;
   }
-} */
+
+  p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .index-card-text {
+    text-align: left;
+  }
+}
