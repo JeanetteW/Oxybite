@@ -134,9 +134,9 @@ padding: 1rem;
 @media only screen and (max-width: 768px) {
   [class="index-product-cards"] {
     width: 100%;
-    margin: 1rem;
+    margin: auto 1rem;
     padding: 0;
     height: auto;
-    justify-content: center;
+   
   }
 }
