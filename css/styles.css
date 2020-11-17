@@ -139,7 +139,7 @@ margin: 4rem auto;
 
 @media only screen and (max-width: 768px) {
   [class="index-product-cards"] {
-    display: block;
+    display: flex;
     width: 50%;
     margin: auto;
     padding: 0;
