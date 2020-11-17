@@ -54,11 +54,11 @@ padding: 1rem;
 
 .index-product-cards-cont {
   background-color: #e6e6e6;
-  padding: 3rem 0;
+  padding: 3rem 5%;
 }
 
 .index-product-cards {
-  margin: 0 8rem;
+background-color: #e6e6e6;
   border-radius: 20px;
   }
 
@@ -68,8 +68,9 @@ padding: 1rem;
   }
 
 .index-cards {
+  /* background-color: #fff; */
   margin: 1rem;
-/*   max-width: 22rem; */
+  /* max-width: 22rem; */
   /* height: 38rem; */
   border-radius: 20px;
   border: none;
