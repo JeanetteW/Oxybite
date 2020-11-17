@@ -132,12 +132,10 @@ padding: 1rem;
 /***************************Media Queries*****************************/
 
 @media only screen and (max-width: 768px) {
-  [class="index-cards"] {
+  [class="index-product-cards"] {
     width: 100%;
     margin: 1rem 0;
     padding: 0;
     height: auto;
-    flex-direction: column;
-   
   }
 }
