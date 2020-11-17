@@ -59,6 +59,7 @@ padding: 1rem;
 .index-product-cards-cont {
   background-color: #E6E6E6;
   padding: 3rem 0;
+  display: flex;
 }
 
 .index-product-cards {
@@ -136,6 +137,7 @@ padding: 1rem;
     margin: 1rem 0;
     padding: 0;
     height: auto;
-    font-size: 80%;
+    flex-direction: column;
+   
   }
 }
