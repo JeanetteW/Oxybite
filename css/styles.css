@@ -68,6 +68,7 @@ padding: 1rem;
   }
 
 .index-cards {
+  margin: 1rem;
   max-width: 22rem;
   /* height: 38rem; */
   border-radius: 20px;
@@ -137,11 +138,12 @@ margin: 4rem auto;
 
 /***************************Media Queries*****************************/
 
-@media only screen and (max-width: 768px) {
-  [class="index-product-cards-cont"] {
-    display: block;
-    width: 100%;
+/* @media only screen and (max-width: 768px) {
+  [class="index-product-cards"] {
+    display: flex;
+    width: 90%;
+    margin: auto;
     padding: 0;
     height: auto;
-     }
-}
+  }
+} */
